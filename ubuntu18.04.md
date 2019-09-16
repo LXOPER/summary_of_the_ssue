@@ -21,5 +21,7 @@ opencv3或opencv4加上其扩展库
 网上的有很多坑的，我忘了都有哪些了，交给后面的人补
 解决cmake安装导致python3不能使用opencv的问题：
 sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+
 sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
 
+ https://pypi.tuna.tsinghua.edu.cn/simple 是清华大学的镜像，如果有一些库下载比较慢可以把前面的源换成中国的，自己可以选择软件来源
