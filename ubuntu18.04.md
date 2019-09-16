@@ -19,4 +19,7 @@ opencv3或opencv4加上其扩展库
  问题：
 配置cmake，不需要配置那么多，(如cuda版本的，没必要)
 网上的有很多坑的，我忘了都有哪些了，交给后面的人补
+解决cmake安装导致python3不能使用opencv的问题：
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
 
