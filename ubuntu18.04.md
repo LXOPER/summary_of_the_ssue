@@ -25,3 +25,11 @@ sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
 sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-contrib-python
 
  https://pypi.tuna.tsinghua.edu.cn/simple 是清华大学的镜像，如果有一些库下载比较慢可以把前面的源换成中国的，自己可以选择软件来源
+
+### six.Pytorch下载过慢:
+https://blog.csdn.net/watermelon1123/article/details/88122020 棒！！！
+
+
+### seven.CMake Error at CMakeLists.xxx(find_package):
+https://www.cnblogs.com/newneul/p/8364924.html 棒！！！
+
