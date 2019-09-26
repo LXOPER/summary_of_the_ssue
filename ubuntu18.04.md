@@ -33,3 +33,13 @@ https://blog.csdn.net/watermelon1123/article/details/88122020 棒！！！
 ### seven.CMake Error at CMakeLists.xxx(find_package):
 https://www.cnblogs.com/newneul/p/8364924.html 棒！！！
 
+### eight.vscode
+1.libopencv_core.so.X.X: cannot open shared object file: No such file or directory
+     找到libopencv_core.so.X.X路径
+     打开/etc/ld.so.conf.d/opencv.conf
+     最后一行加上该文件所在路径 （/your path/your path/your path/）
+     sudo ldconfig -v
+     https://stackoverflow.com/questions/12335848/opencv-program-compile-error-libopencv-core-so-2-4-cannot-open-shared-object-f
+     
+2.CMakeLists看seven
+3.配json注意路径！！！！！！！！！！！！！！！！！！！！！！！！！
